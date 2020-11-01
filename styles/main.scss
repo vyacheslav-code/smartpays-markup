@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 6.5% 4.7%;
+
+    &__logo {
+        height: auto;
+        width: 43.75vw;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 6.25vw;
+            width: 7.2vw;
+
+            &:first-child {
+                width: 6.25vw;
+                margin-right: 3.75vw;
+            }
+        }
+    }
+}

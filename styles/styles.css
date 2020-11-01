@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  padding: 6.5% 4.7%;
+}
+.header__logo {
+  height: auto;
+  width: 43.75vw;
+}
+.header__links {
+  display: flex;
+  justify-content: center;
+}
+.header__links img {
+  height: 6.25vw;
+  width: 7.2vw;
+}
+.header__links img:first-child {
+  width: 6.25vw;
+  margin-right: 3.75vw;
+}
+
+/*# sourceMappingURL=styles.css.map */
